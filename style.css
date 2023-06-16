@@ -1,0 +1,146 @@
+/* Estilos CSS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  background-image: url("./images/abstract-space-wallpaper-background-dark-smoke-design_53876-128278.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0px;
+  padding: 20px;
+  background-color: rgba(
+    51,
+    51,
+    51,
+    0.8
+  ); /* Fondo translúcido del encabezado */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  display: flex;
+  gap: 20px; /* Separación entre elementos del contenedor */
+}
+
+.form-container,
+.section-container {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 50%; /* Ajusta el ancho máximo */
+}
+
+form {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Fondo translúcido del formulario */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px 40px 20px 20px;
+  margin-bottom: 0px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.borrar-button {
+  background-color: #ff0000;
+  margin-left: 10px;
+}
+
+.section-container {
+  background-color: rgba(
+    249,
+    246,
+    247,
+    0.8
+  ); /* Fondo translúcido de la sección */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 50%; /* Ajusta el ancho máximo */
+  margin-top: 20px; /* Agrega un margen superior */
+}
+
+h4 {
+  color: #333;
+}
+
+.secciones {
+  display: flex;
+  flex-direction: column;
+}
+
+.secciones h4 {
+  margin-bottom: 10px;
+}
+
+.secciones .contacto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.secciones .contacto p {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.contacto p {
+  display: inline;
+  margin-right: 10px;
+}
+
+.contacto button {
+  display: inline;
+  margin-left: 10px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }  
